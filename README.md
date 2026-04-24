@@ -1,6 +1,21 @@
 # kaggle-claude-plugin
 
+[![Python](https://img.shields.io/badge/python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin-D97706?logo=anthropic&logoColor=white)](https://claude.ai/code)
+[![SQLite](https://img.shields.io/badge/SQLite-local%20db-003B57?logo=sqlite&logoColor=white)](https://sqlite.org/)
+[![Telegram](https://img.shields.io/badge/Telegram-notifications-2CA5E0?logo=telegram&logoColor=white)](https://core.telegram.org/bots)
+[![Kaggle](https://img.shields.io/badge/Kaggle-API-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/docs/api)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/kaggle-claude-plugin)](https://github.com/YOUR_USERNAME/kaggle-claude-plugin/commits)
+[![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/kaggle-claude-plugin?style=social)](https://github.com/YOUR_USERNAME/kaggle-claude-plugin/stargazers)
+
 Claude Code plugin для мониторинга Kaggle-соревнований: автоматический импорт, ML-классификация через Claude, Telegram-уведомления.
+
+```
+Kaggle API ──► fetch_competitions.py ──► Claude (classify) ──► SQLite
+                                                                  │
+Telegram ◄── send_telegram.py ◄── Claude (translate) ◄── get_pending.py
+```
 
 ## Архитектура
 
