@@ -1,0 +1,15 @@
+{
+  "name": "kaggle-assistant",
+  "version": "0.1.0",
+  "description": "Kaggle competition monitoring, classification, and Telegram notifications",
+  "skills": [
+    {"name": "kaggle-import",   "path": "skills/kaggle-import/SKILL.md"},
+    {"name": "kaggle-classify", "path": "skills/kaggle-classify/SKILL.md"},
+    {"name": "kaggle-notify",   "path": "skills/kaggle-notify/SKILL.md"},
+    {"name": "kaggle-status",   "path": "skills/kaggle-status/SKILL.md"},
+    {"name": "kaggle-review",   "path": "skills/kaggle-review/SKILL.md"}
+  ],
+  "hooks": "hooks/hooks.json",
+  "tools_dir": "tools/",
+  "credentials_template": "tools/.credentials.example"
+}

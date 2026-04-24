@@ -1,0 +1,6 @@
+tools/.credentials
+tools/kaggle.db
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/

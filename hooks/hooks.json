@@ -1,0 +1,17 @@
+{
+  "_comment": "Add this SessionStart entry to ~/.claude/settings.json hooks section. Use absolute path to session_start.py.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python /ABSOLUTE/PATH/TO/kaggle-claude-plugin/hooks/session_start.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
